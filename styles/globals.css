@@ -129,7 +129,7 @@ width: 100%;
 }
 
 .hero-banner-container{
-  padding: 100px 40px;
+  padding: 20px 88px;
   background-color: #dcdcdc;
   border-radius: 15px;
   position: relative;
@@ -190,11 +190,10 @@ flex-direction: column;
 text-align: end;
 }
 .desc h5{
-  margin-bottom: 12px;
-  font-weight: 700;
+  margin-bottom: 10px;
   font-size: 16px;
   /* color: black; */
-  align-self: flex-end;
+  right: auto;
 }
 .products-heading{
   text-align: center;
@@ -211,7 +210,7 @@ text-align: end;
   font-weight: 200;
 }
 .footer-banner-container{
-  padding: 100px 40px;
+  padding: 100px 4px;
   background-color: #f02d34;
   border-radius: 15px;
   position: relative;
@@ -247,7 +246,6 @@ text-align: end;
   font-size: 57px;
   color: #fffffd;
   font-family: "Lobster", serif;
- 
   margin: 3px;
 }
 .footer-banner-image{
@@ -627,23 +625,25 @@ margin-top: 160px;
 
 @media screen and (max-width:800px) {
   .hero-banner-container{
-    height: 560px;
+    height: 490px;
+    width: 105%;
   }
   .hero-banner-image{
-    width: 77%;
-    height: 62%;
-    top: -2%;
-    right: -6%;
+    width: 50%;
+    height: 36%;
+    top: 30%;
+    right: 24%;
   }
   .footer-banner-container{
-    height: 560px;
+    height: 600px;
+    width: 105%;
     margin-top: 80px;
   }
   .footer-banner-image{
-    width: 77%;
-    left: 30%;
-    top: 6%;
-    height: 56%
+    width: 50%;
+    left: 26%;
+    top: 0%;
+    height: 20%
   }
   .banner-desc .left h3{
     font-weight: 900;
@@ -651,7 +651,8 @@ margin-top: 160px;
     margin-left: 5px;
   }
   .banner-desc .left p{
-    margin:18px;
+    top: 20%;
+    
   }
   .banner-desc .right h3{
     font-size: 45px;
@@ -676,11 +677,13 @@ margin-top: 160px;
     font-size: 40px;
   }
   .hero-banner-container button{
-    margin-top: 90px;
+    margin-top: 150px;
     z-index: 10000;
   }
   .desc{
-   bottom: 60px;
+   bottom: 50px;
+   right: -5%;
+   width: 100%;
   }
   .product-detail-container{
     flex-wrap: wrap;
